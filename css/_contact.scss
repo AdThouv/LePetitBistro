@@ -1,0 +1,79 @@
+.contact {
+  h2 {
+    background-color: $jaune;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+  }
+  .adress {
+    background-color: $bleuHome;
+    color: white;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+      margin: 20px 10px ;
+    }
+    .descri {
+      p {
+        text-align: center;
+        font-size: 28px;
+        line-height: 30px;
+        padding: 10px;
+      }
+      .sociaux {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        margin: 0 auto;
+        img {
+          width: 20px;
+          height: 20px;
+          margin-left: 5px;
+          transition: 500ms;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
+  .noussituer {
+    .mapouter {
+      width: 100%;
+      .gmap_canvas {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .contact {
+    h2 {
+    }
+    .adress {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 30%;
+      }
+      .descri {
+        p {
+        }
+        .sociaux {
+          img {
+          }
+        }
+      }
+    }
+    .noussituer {
+      .mapouter {
+        .gmap_canvas {
+        }
+      }
+    }
+  }
+}

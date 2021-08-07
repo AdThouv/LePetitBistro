@@ -1,0 +1,80 @@
+.carte {
+  .carteF {
+    h2 {
+      background-color: $bleuHome;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 40px;
+    }
+    .double,
+    .doubleReverse {
+      background-color: $jaune;
+      display: flex;
+      flex-direction: column-reverse;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      table {
+        color: white;
+        padding: 10px;
+
+        tr {
+          td {
+            padding: 10px;
+            h3 {
+              font-weight: 400;
+              font-size: 25px;
+              margin: 10px auto;
+              text-decoration: underline;
+              text-underline-position: under;
+            }
+            font-family: "Dancing Script", cursive;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .carte {
+    .carteF {
+      h2 {
+      }
+      .double {
+        display: flex;
+        img {
+          width: 50%;
+        }
+        table {
+          width: 50%;
+          height: 420px;
+          tr {
+            td {
+              h3 {
+              }
+            }
+          }
+        }
+      }
+      .doubleReverse {
+        display: flex;
+        flex-direction: row-reverse;
+        img {
+          width: 50%;
+        }
+        table {
+          width: 50%;
+          height: 420px;
+          tr {
+            td {
+              h3 {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

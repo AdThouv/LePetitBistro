@@ -1,0 +1,13 @@
+#close{
+    position: fixed;
+    top:10px;
+    left:10px;
+    opacity:0;
+    z-index:9998;
+    transition:500ms;
+}
+@media (min-width: 1280px) {
+    #close{
+      display:none;
+    }
+    }

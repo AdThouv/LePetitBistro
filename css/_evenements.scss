@@ -1,0 +1,48 @@
+.evenements {
+    background-color: $bleuHome;
+  h2 {
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+  }
+  .containerImg {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $jaune;
+    img {
+      width: 100%;
+      padding:20px;
+    }
+  }
+  .description {
+    padding: 20px;
+    background-color: #c88400;
+    margin-top: -1px;
+    p {
+        color:white;
+        line-height: 20px;
+        margin-top: 10px;
+        strong{
+            color:$bleuHome;
+        }
+    }
+  }
+  .description2{
+    padding: 20px;
+    background-color: #c88400;
+    margin-top: -1px;
+    p {
+        color:white;
+        line-height: 20px;
+        margin-top: 10px;
+        a{
+            color:$bleuHome;
+            font-family: 'Roboto Slab', serif; ;
+            line-height: 20px;
+        }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import 'color';
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Indie Flower', cursive;
+  color:white;
+  font-weight: 400;
+}
+h2{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+}
+h3{
+  
+  font-family: 'Indie Flower', cursive;
+  
+}
+h4{
+  
+  font-family: 'Roboto Slab', serif;
+}
+p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+a{
+ font-family: 'Indie Flower', cursive;
+  font-size: 21px;
+  line-height:64px;
+  text-decoration: none;
+  color:white;
+}
+li{
+  font-family: 'Roboto Slab', serif;
+}

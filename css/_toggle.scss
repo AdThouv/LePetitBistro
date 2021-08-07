@@ -1,0 +1,13 @@
+.toggle {
+    position: absolute;
+    z-index: 9999;
+    opacity:1;
+    top: 10px;
+    left: 10px;
+    transition:500ms;
+}
+@media (min-width: 1280px) {
+.toggle{
+  display:none;
+}
+}
